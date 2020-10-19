@@ -231,5 +231,4 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 
-*.runtimeconfig.json
-runtimeconfig.json
+input.txt

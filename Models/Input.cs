@@ -1,6 +1,6 @@
 using System;
 
-namespace dimitar_palyov_employees.ViewModels
+namespace dimitar_palyov_employees.Models
 {
     public class Input
     {

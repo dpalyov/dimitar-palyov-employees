@@ -1,4 +1,17 @@
 /* Provide sufficient contrast against white background */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #145da0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: White;
+}
+
 a {
   color: #0366d6;
 }
@@ -9,6 +22,11 @@ code {
 
 .btn-primary {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #0c2d48;
+  border-color: #0c2d48;
+}
+
+.btn-primary:hover {
+  background-color: #2E8BC0;
+  border-color: #2E8BC0;
 }
