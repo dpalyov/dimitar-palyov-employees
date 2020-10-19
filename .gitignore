@@ -232,3 +232,4 @@ _Pvt_Extensions
 .fake/
 
 input.txt
+SeedInput.cs

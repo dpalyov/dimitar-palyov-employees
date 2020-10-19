@@ -72,12 +72,16 @@ function Home() {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>{data.employeeIdA}</td>
-              <td>{data.employeeIdB}</td>
-              <td>{data.projectId}</td>
-              <td>{data.daysOnProject}</td>
-            </tr>
+            {data.map(p => {
+              return (
+                <tr key={p.projectId}>
+                  <td>{p.employeeIdA}</td>
+                  <td>{p.employeeIdB}</td>
+                  <td>{p.projectId}</td>
+                  <td>{p.daysOnProject}</td>
+                </tr>
+              )
+            })}
           </tbody>
         </Table> 
         }
